@@ -1,0 +1,310 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>帆币充值</title>
+		<link rel="stylesheet" type="text/css" href="./fbcz.css"/>
+	</head>
+	<body>
+		<div class="content">
+			<div class="tb">
+				<span class="value">帆币充值</span>
+				<div class="czzh">
+					<span class="name" id="czzh_name_id">充值账号：搁浅</span>
+					<span class="change" id="change_id" >更换</span>
+				</div>
+			</div>
+			<div class="zbs">
+				<div class="num m_10y">
+						<span class="je">10</span>
+						<span class="dw">元</span>
+						<span class="fb">（1000帆币）</span>
+						<span class="icon" id="icon_id"></span>
+				</div>
+				<div id="m20y" class="num m_20y">
+					    <span class="je">20</span>
+						<span class="dw">元</span>
+						<span class="fb">（2000帆币）</span>
+						<span class="icon" id="icon_id2"></span>
+				</div>
+				<div id="m50y" class="num m_50y">
+					    <span class="je">50</span>
+						<span class="dw">元</span>
+						<span class="fb">（5000帆币）</span>
+						<span class="icon" id="icon_id3"></span>
+				</div>
+				<div class="num m_100y">
+					    <span class="je">100</span>
+						<span class="dw">元</span>
+						<span class="fb">（10000帆币）</span>
+						<span class="icon" id="icon_id4"></span>
+				</div>
+				<div class="num m_200y">
+					    <span class="je">200</span>
+						<span class="dw">元</span>
+						<span class="fb">（20000帆币）</span>
+						<span class="icon" id="icon_id5"></span>
+				</div>
+				<div class="num m_500y">
+					    <span class="je">500</span>
+						<span class="dw">元</span>
+						<span class="fb">（50000帆币）</span>
+						<span class="icon" id="icon_id6"></span>
+				</div>
+				<div class="num m_888y">
+					    <span class="je">888</span>
+						<span class="dw">元</span>
+						<span class="fb">（88800帆币）</span>
+						<span class="icon" id="icon_id7"></span>
+				</div>
+				<div class="num m_1k">
+					   <span class="je">1000</span>
+						<span class="dw">元</span>
+						<span class="fb">（100000帆币）</span>
+						<span class="icon" id="icon_id8"></span>
+				</div>
+				<div class="num m_2k">
+					   <span class="je">2000</span>
+						<span class="dw">元</span>
+						<span class="fb">（200000帆币）</span>
+						<span class="icon" id="icon_id9"></span>
+				</div>
+				<div class="num m_5k">
+					   <span class="je">5000</span>
+						<span class="dw">元</span>
+						<span class="fb">（500000帆币）</span>
+						<span class="icon" id="icon_id10"></span>
+				</div>
+				<div class="num m_50k">
+					  <span class="je">50000</span>
+						<span class="dw">元</span>
+						<span class="fb">（5000000帆币）</span>
+						<span class="icon" id="icon_id11"></span>
+				</div>
+				<div class="num m_10k">
+					  <span class="je">10000</span>
+						<span class="dw">元</span>
+						<span class="fb">（1000000帆币）</span>
+						<span class="icon" id="icon_id12"></span>
+				</div>
+				<div class="num m_20k">
+					  <span class="je">20000</span>
+						<span class="dw">元</span>
+						<span class="fb">（2000000帆币）</span>
+						<span class="icon" id="icon_id13"></span>
+				</div>
+				<div class="zdy">
+					<input type="text" class="srk" value="自定义金额">
+					<span class="bdy">不低于5元</span>
+					<span class="icon" id="icon_id14"></span>
+				</div>
+			</div>	
+			<div class="zbx">
+				<div class="fh">
+					<img class="checkbox1" id="checkbox1_id" src="./photo/discount_checkbox.png"/>
+					<img class="checkbox2" id="checkbox2_id" src="./photo/discount_checkbox_check.png"/>
+					<span class="syfbj">使用返币劵</span>
+					<form class="fbj" id="form_id">   
+                       <select>
+                             <option value="" selected="selected">3%返币劵</option>
+                             <option value="">5%返币劵</option>
+                             <option value="">10%返币劵</option>
+                       </select>
+                    </form>
+
+				</div>
+			</div>
+			<div class="xb">
+					<div class="zhifubao tp" id="zhifubao_id">
+						<img  src="./photo/zhifubao.png"/>
+						<img class="zfbtp" src="./photo/tick.png"/>
+						<span class="zfbzf"></span>
+					</div>
+					<div class="weixin tp" id="weixin_id">
+						<img src="./photo/wechat.png">
+						<img class="zfbtp" src="./photo/tick.png"/>
+						<span class="wxzf"></span>
+					</div>
+					<div class="shifu">
+		     			<span class="sfje">实付金额：</span>
+						<span class="jes" id="jes_id"></span>
+						<span class="yuan">元</span>
+						<div class="xieyi">
+							<img src="./photo/agree_checkbox.png">
+							<span class="tongyi">同意</span>
+							<a href="http://qf.56.com/help/operate/consumption.html" target="_blank" class="xfxy">《千帆直播充值消费协议》</a>
+						</div>
+						<div class="tips" id="tips_id">
+                            <div class="tips_name">
+                               温馨提示：
+                            </div>
+                            <ol>
+                               <li>
+                                   如果您已支付成功，页面为自动跳转，进入<a href="http://qf.56.com/pay/myRecord.do" class="ucenter">个人中心</a>查看您的交易记录；
+                               </li>
+                               <li>
+                                   如果您正在进行微信扫码支付，请勿刷新页面。
+                               </li>
+                            </ol>
+                        </div>
+                        <div class="scan_code " id="scan_id" style="bottom: 18px;">
+                            <div class="name">
+                                请用微信客户端扫码
+                            </div>
+                            <img alt="二维码" src="https://pay.56.com/proxy/my.tv.sohu.com/user/a/wvideo/getQRCode.do?width=166&amp;height=166&amp;text=https%3A%2F%2Fpay.56.com%2Fwap%2Fweixin_wap.php%3Fuser_id%3Dwx-jmkrbkzfej%26money%3D50%26union%3Dnull">
+                        </div>
+					</div>
+			</div>
+			<div class="cz" id="cz_id">
+					<div class="ghycz">
+						<span class="wz">给好友充值</span>
+						<img class="close" id="close_id" src="./photo/dialog_close.png">
+					</div>
+					<input id="input_id" class="sr"type="text" value="请输入好友帆号"/>
+					<span class="hd">请仔细核对该帆号与验证昵称后充值</span>
+					<input type="button" class="qx" id="qx_id" value="取消"/>
+		            <input type="button" class="qd" id="qd_id2" value="确定"/>
+		        </div>
+		</div>
+		
+			<!-- <div class="cz" id="cz_id">
+					<div class="ghycz">
+						<span class="wz">给好友充值</span>
+						<img class="close" id="close_id" src="./photo/dialog_close.png">
+					</div>
+					<input class="sr"type="text" value="请输入好友帆号"/>
+					<span class="hd">请仔细核对该帆号与验证昵称后充值</span>
+					<input type="submit" class="qx" id="qx_id" value="取消"/>
+		            <input type="submit" class="qd" id="qd_id" value="确定"/> -->
+		<script>
+		 var chObj=document.getElementById("change_id");
+		 chObj.onclick=function c(){
+			 var b=document.getElementById("cz_id");
+			 b.style.display="block";
+			};
+
+		 var qxObj=document.getElementById("qx_id");
+		 qxObj.onclick2=function d(){
+		 var b=document.getElementById("cz_id");
+		 b.style.display="none";
+		};
+
+		 var clObj=document.getElementById("close_id");
+		 clObj.onclick2=function d(){
+		 var b=document.getElementById("cz_id");
+		 b.style.display="none";
+		};
+
+		var sureObj=document.getElementById('qd_id2');
+		var inputObj=document.getElementById('input_id');
+		sureObj.onclick2=function(){
+			if(inputObj.value==''||inputObj.value=='请输入好友帆号'){
+				alert('请输入内容');
+				return;
+			}
+
+			var b=document.getElementById("cz_id");
+		 	b.style.display="none";
+
+		 	var b2=document.getElementById("czzh_name_id");
+		 	b2.innerHTML='充值账号：'+inputObj.value;
+		}
+
+		//事件委托
+		var cz_id=document.getElementById('cz_id');
+		cz_id.onclick=function(evt){
+			//evt.target 等同于 document.getElementById("close_id")
+
+			if(evt.target.id=='close_id'||evt.target.id=='qx_id'){
+				var b=document.getElementById("cz_id");
+		 		b.style.display="none";
+		 		return;
+			}
+
+			if(evt.target.id=='qd_id2'){
+				if(inputObj.value==''||inputObj.value=='请输入好友帆号'){
+					alert('请输入内容');
+					return;
+				}
+
+				var b=document.getElementById("cz_id");
+			 	b.style.display="none";
+
+			 	var b2=document.getElementById("czzh_name_id");
+			 	b2.innerHTML='充值账号：'+inputObj.value;
+
+			 	return;
+			}
+		}
+
+
+		var num=document.getElementsByClassName('num');
+		for(var i=0;i<num.length;i+=1){
+			num[i].onclick=function(evt){
+				if(evt.target.className.indexOf('num')!=-1){
+					evt.target.className=evt.target.className+' active';
+					//evt.target.className='active';
+
+					
+					var b2=document.getElementById("icon_id");
+					b2.style.display="block";
+					return;
+				}
+
+
+			}
+		}
+		var iconobj=document.getElementById("icon_id2");
+        var m=document.getElementById("m20y");
+		m.onclick=function(){
+			iconobj.style.display="block"};
+		var iconobj2=document.getElementById("icon_id3");
+        var m2=document.getElementById("m50y");
+        /*var num2=document.getElementsByClassName('num'+'active');*/
+		m2.onclick=function(){
+			iconobj2.style.display="block";
+			/*num2.style.display="block";*/}
+
+		var weixinobj=document.getElementById("weixin_id");
+		var zhifubaoobj=document.getElementById("zhifubao_id");
+		var tiobj=document.getElementById("tips_id");
+		var scanobj=document.getElementById("scan_id");
+		weixinobj.onclick=function(){
+			tiobj.style.display="block";
+			scanobj.style.display="block";
+		}
+		zhifubaoobj.onclick=function(){
+		    tiobj.style.display="none";
+			scanobj.style.display="none";	
+		}
+
+
+
+
+
+		var m20yobj=document.getElementById("m20y");
+		var abc=document.getElementById("jes_id");
+		var cba=m20yobj.innerText;
+		m20yobj.onclick=function(){
+			abc.innerHTML=cba.substring(0,2);
+		}
+
+
+
+
+
+		var checkbox1=document.getElementById("checkbox1_id");
+		checkbox1.onclick=function(){
+			var src=checkbox1.getAttribute('src');
+			if(src.indexOf('checkbox_check')!=-1){
+				checkbox1.setAttribute('src','./photo/discount_checkbox.png');
+			}else{
+				checkbox1.setAttribute('src','./photo/discount_checkbox_check.png');
+			}
+		}
+
+
+		
+		</script>
+		
+	</body>
