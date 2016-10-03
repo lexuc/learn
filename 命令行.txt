@@ -1,0 +1,9 @@
+git status
+
+git add .
+
+git commit -m "ÅäÖÃgit"
+
+git push origin master
+
+git pull origin imaster

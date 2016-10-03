@@ -111,7 +111,7 @@
                              <option value="">10%返币劵</option>
                        </select>
                     </form>
-
+                    <span class="jfh" id="jfh_id">将返回500帆币卷</span>
 				</div>
 			</div>
 			<div class="xb">
@@ -120,7 +120,7 @@
 						<img class="zfbtp" src="./photo/tick.png"/>
 						<span class="zfbzf"></span>
 					</div>
-					<div class="weixin tp" id="weixin_id">
+					<div class="weixin tnum p" id="weixin_id">
 						<img src="./photo/wechat.png">
 						<img class="zfbtp" src="./photo/tick.png"/>
 						<span class="wxzf"></span>
@@ -130,7 +130,7 @@
 						<span class="jes" id="jes_id"></span>
 						<span class="yuan">元</span>
 						<div class="xieyi">
-							<img src="./photo/agree_checkbox.png">
+							<img src="./photo/agree_checkbox.png" class="agree" id="agree_id">
 							<span class="tongyi">同意</span>
 							<a href="http://qf.56.com/help/operate/consumption.html" target="_blank" class="xfxy">《千帆直播充值消费协议》</a>
 						</div>
@@ -151,7 +151,7 @@
                             <div class="name">
                                 请用微信客户端扫码
                             </div>
-                            <img alt="二维码" src="https://pay.56.com/proxy/my.tv.sohu.com/user/a/wvideo/getQRCode.do?width=166&amp;height=166&amp;text=https%3A%2F%2Fpay.56.com%2Fwap%2Fweixin_wap.php%3Fuser_id%3Dwx-jmkrbkzfej%26money%3D50%26union%3Dnull">
+                            <img alt="二维码" src="./photo/code.jpg">
                         </div>
 					</div>
 			</div>
@@ -176,135 +176,9 @@
 					<span class="hd">请仔细核对该帆号与验证昵称后充值</span>
 					<input type="submit" class="qx" id="qx_id" value="取消"/>
 		            <input type="submit" class="qd" id="qd_id" value="确定"/> -->
-		<script>
-		 var chObj=document.getElementById("change_id");
-		 chObj.onclick=function c(){
-			 var b=document.getElementById("cz_id");
-			 b.style.display="block";
-			};
-
-		 var qxObj=document.getElementById("qx_id");
-		 qxObj.onclick2=function d(){
-		 var b=document.getElementById("cz_id");
-		 b.style.display="none";
-		};
-
-		 var clObj=document.getElementById("close_id");
-		 clObj.onclick2=function d(){
-		 var b=document.getElementById("cz_id");
-		 b.style.display="none";
-		};
-
-		var sureObj=document.getElementById('qd_id2');
-		var inputObj=document.getElementById('input_id');
-		sureObj.onclick2=function(){
-			if(inputObj.value==''||inputObj.value=='请输入好友帆号'){
-				alert('请输入内容');
-				return;
-			}
-
-			var b=document.getElementById("cz_id");
-		 	b.style.display="none";
-
-		 	var b2=document.getElementById("czzh_name_id");
-		 	b2.innerHTML='充值账号：'+inputObj.value;
-		}
-
-		//事件委托
-		var cz_id=document.getElementById('cz_id');
-		cz_id.onclick=function(evt){
-			//evt.target 等同于 document.getElementById("close_id")
-
-			if(evt.target.id=='close_id'||evt.target.id=='qx_id'){
-				var b=document.getElementById("cz_id");
-		 		b.style.display="none";
-		 		return;
-			}
-
-			if(evt.target.id=='qd_id2'){
-				if(inputObj.value==''||inputObj.value=='请输入好友帆号'){
-					alert('请输入内容');
-					return;
-				}
-
-				var b=document.getElementById("cz_id");
-			 	b.style.display="none";
-
-			 	var b2=document.getElementById("czzh_name_id");
-			 	b2.innerHTML='充值账号：'+inputObj.value;
-
-			 	return;
-			}
-		}
-
-
-		var num=document.getElementsByClassName('num');
-		for(var i=0;i<num.length;i+=1){
-			num[i].onclick=function(evt){
-				if(evt.target.className.indexOf('num')!=-1){
-					evt.target.className=evt.target.className+' active';
-					//evt.target.className='active';
-
-					
-					var b2=document.getElementById("icon_id");
-					b2.style.display="block";
-					return;
-				}
-
-
-			}
-		}
-		var iconobj=document.getElementById("icon_id2");
-        var m=document.getElementById("m20y");
-		m.onclick=function(){
-			iconobj.style.display="block"};
-		var iconobj2=document.getElementById("icon_id3");
-        var m2=document.getElementById("m50y");
-        /*var num2=document.getElementsByClassName('num'+'active');*/
-		m2.onclick=function(){
-			iconobj2.style.display="block";
-			/*num2.style.display="block";*/}
-
-		var weixinobj=document.getElementById("weixin_id");
-		var zhifubaoobj=document.getElementById("zhifubao_id");
-		var tiobj=document.getElementById("tips_id");
-		var scanobj=document.getElementById("scan_id");
-		weixinobj.onclick=function(){
-			tiobj.style.display="block";
-			scanobj.style.display="block";
-		}
-		zhifubaoobj.onclick=function(){
-		    tiobj.style.display="none";
-			scanobj.style.display="none";	
-		}
-
-
-
-
-
-		var m20yobj=document.getElementById("m20y");
-		var abc=document.getElementById("jes_id");
-		var cba=m20yobj.innerText;
-		m20yobj.onclick=function(){
-			abc.innerHTML=cba.substring(0,2);
-		}
-
-
-
-
-
-		var checkbox1=document.getElementById("checkbox1_id");
-		checkbox1.onclick=function(){
-			var src=checkbox1.getAttribute('src');
-			if(src.indexOf('checkbox_check')!=-1){
-				checkbox1.setAttribute('src','./photo/discount_checkbox.png');
-			}else{
-				checkbox1.setAttribute('src','./photo/discount_checkbox_check.png');
-			}
-		}
-
-
 		
-		</script>
+
+		<script src='./script.js'></script>
 		
 	</body>
+</html>

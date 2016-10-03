@@ -42,10 +42,6 @@
             background-color: #F5F5F5;  
             position: relative;      
         }
-       /* .num:hover{
-            border: 1px solid #CC6600;
-        }*/
-       
         .je{
             position: relative;
             color: #CC6600;
@@ -135,7 +131,6 @@
         }
         .xb{
             height: 360px;
-
         }
         .zhifubao{
             left: 20px;
@@ -159,7 +154,7 @@
             padding-top: 10px;
             top: -37px;
         }
-        .zfbtp{
+       .zfbtp{
             display: none;
             position:absolute;
             width: 16px;
@@ -282,6 +277,10 @@
             bottom: 0;
             display: none;
         }
+        .num.active .icon{
+            display: block;
+        }
+
         .sfje{
             font-size: 18px;
         }
@@ -295,5 +294,17 @@
         }
         .jes{
             color: red;
+            font-size: 22px;
+        }
+        .jfh{
+            display:inline-block;
+            position: relative;
+            color: #CC6600;
+            font-size:14px;
+            top: 11px;
+            left: 22px;
+        }
+        .agree_checkbox{
+
         }
         
