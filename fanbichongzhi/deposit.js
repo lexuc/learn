@@ -1,29 +1,29 @@
 (function (){
-	var cz_id = document.getElementById('cz_id');
-cz_id.onclick = function(evt) {
-	//evt.target 等同于 document.getElementById("close_id")
+// 	var cz_id = document.getElementById('cz_id');
+// cz_id.onclick = function(evt) {
+// 	//evt.target 等同于 document.getElementById("close_id")
 
-	if (evt.target.id == 'close_id' || evt.target.id == 'qx_id') {
-		var b = document.getElementById("cz_id");
-		b.style.display = "none";
-		return;
-	}
+// 	if (evt.target.id == 'close_id' || evt.target.id == 'qx_id') {
+// 		var b = document.getElementById("cz_id");
+// 		b.style.display = "none";
+// 		return;
+// 	}
 
-	if (evt.target.id == 'qd_id2') {
-		if (inputObj.value == '' || inputObj.value == '请输入好友帆号') {
-			alert('请输入内容');
-			return;
-		}
+// 	if (evt.target.id == 'qd_id2') {
+// 		if (inputObj.value == '' || inputObj.value == '请输入好友帆号') {
+// 			alert('请输入内容');
+// 			return;
+// 		}
 
-		var b = document.getElementById("cz_id");
-		b.style.display = "none";
+// 		var b = document.getElementById("cz_id");
+// 		b.style.display = "none";
 
-		var b2 = document.getElementById("czzh_name_id");
-		b2.innerHTML = '充值账号：' + inputObj.value;
+// 		var b2 = document.getElementById("czzh_name_id");
+// 		b2.innerHTML = '充值账号：' + inputObj.value;
 
-		return;
-	}
-}
+// 		return;
+// 	}
+//}
 
 
 
