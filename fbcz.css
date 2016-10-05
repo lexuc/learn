@@ -1,310 +1,314 @@
-.content{   position: absolute;
-            width: 963px;
-            height: 1000px;
-			font-size: 14px;
-               line-height: 1.5;
-               font-family: 冬青黑体, 微软雅黑, Arial, Helvetica, sans-serif;
-               color: #000;
-               z-index: -1;
+.content {
+	position: absolute;
+	width: 963px;
+	height: 1000px;
+	font-size: 14px;
+	line-height: 1.5;
+	font-family: 冬青黑体, 微软雅黑, Arial, Helvetica, sans-serif;
+	color: #000;
+	z-index: -1;
 }
-        .tb{
-        	width: 722px;
-            height: 41px;
-            padding: 20px 0 0 0;
-            position: relative;
-            margin: 0 24px 0 24px;
-            border-bottom:1px #000
-        }
-        .czzh{
-        	width: 140px;
-        	height: 19px;
-        	float: right;
-        }
-        .change{
-        	color: #5cc8cb;
-            position: relative;
-            right: -13px;
-        }
-        .zbs{
-            width: 855px;
-            height: 220px;
-           
-        }
-        .num{
-            
-            float: left;
-            margin: 7.5px 5px;
-            width: 160px;
-            height: 45px;
-            padding: 4px 0;
-            text-align: center;
-            font-size: 16px;
-            background-color: #F5F5F5;  
-            position: relative;      
-        }
-        .je{
-            position: relative;
-            color: #CC6600;
-            top:6px;
-             
-        }
-        .dw{
-            position: relative;
-            color: #CC6600;
-            top:6px;
-            
-            left: -4px; 
-        }
-        .fb{
-            
-            font-size: 12px;
-    color: #5cc8cb;
-   
-    width: 100%;
-    
-    display: inline-block;
-    left: 50%;
-    
-        }
-        
-        .zdy{
-            float: left;
-            position: relative;
-            width: 330px;
-            height: 53px;
-            margin: 7.5px 5px;
-            background-color: #F5F5F5;
-        }
-        .srk{
-            position: relative;
-            border: 0;
-            left: 10px;
-            top: 14px;
-            background-color: #F5F5F5;
-            color: #ADADAD;
-        }
-        .bdy{
-            position: relative;
-            left: -10px;
-            top: 14px;
-            float: right;
-            color: #5cc8cb;
-        }
-        .zbx{
-            width: 855px;
-            height: 100px;
-            border-top: 2px solid #F5F5F5;
-            border-bottom:2px solid #F5F5F5;
-        }
-        .fh{
-            width: 855px;
-            height: 49px;
-            background-image: url('./photo/discount_bg.png');
-            background-repeat: no-repeat;
-            margin:20px 5px 30px 5px;
-        }
-        .checkbox1{
-            position: relative;
-            top: 13px;
-            left: 10px;
-        }
-        .checkbox2{
-            display: none;
-            position: relative;
-            top: 13px;
-            left: 10px;
-        }
-        .syfbj{
-            position: relative;
-            top: 12px;
-            left: 10px;
-            font-size: 16px;
-        }
-        .fbj{
-            display: inline-block;
-            position: relative;
-            width: 95px;
-            height: 25px;
-            font-size: 16px;
-            top: 11px;
-            left: 20px;
-        }
-        .xb{
-            height: 360px;
-        }
-        .zhifubao{
-            left: 20px;
-            position: relative;
-            width: 160px;
-            height: 43px;
-           /* border: 1px solid #CC6600;*/
-            background-color:#F5F5F5;
-            text-align: center;
-            padding-top: 10px;
-            top: 16px;
-        }
-        .weixin{
-            left: 300px;
-            position: relative;
-            width: 160px;
-            height: 43px;
-           /* border: 1px solid #CC6600;*/
-            background-color:#F5F5F5;
-            text-align: center;
-            padding-top: 10px;
-            top: -37px;
-        }
-       .zfbtp{
-            display: none;
-            position:absolute;
-            width: 16px;
-            height: 16px;
-            right: 0px;
-            bottom:0px;
-            /*display: inline-block;*/
-        }
-        .zhifubao.active{border: 1px solid #CC6600;}
-        .tips{
-            position: relative;
-            top: 40px;
-            color: #ADADAD; 
-            display:none;    
-        }
-        ol{
-            margin: 5px 0 0 -25px;    
-        }
-        .scan_code{
-            position: absolute;
-            right:100px;
-            top:450px;
-            display: none;
-        }
-        .name{
-            position: relative;
-            left: 15px;
-        }
-        .cz{cursor: pointer;
-            position: absolute;
-            width: 360px;
-            height: 190px;
-            background-color:#ffffff;
-            border: 1px solid #000;
-            border-radius: 5px;
-            display: none;
-            cursor: pointer;
-            left: 500px;
-            top: 60px;
-        }
-        .ghycz{
-           background-color:#CC9966;
-           width: 360px;
-           height: 34px; 
-           border-top-left-radius: 5px;
-           border-top-right-radius: 5px;
-        }
-        .wz{
-            display: block;
-            position: absolute;
-            font-size: 20px;
-            left: 20px;
-            top: 1px;
-            color: #ffffff;
-            font-weight: bold;
-        }
-        .close{
-            display: block;
-            width: 15px;
-            height: 15px;
-            float: right;
-            margin: 10px;
-        }
-        .sr{
-            display: block;
-            width: 270px;
-            height: 28px;
-            margin: 30px 35px 15px;
-            padding-left: 15px;
-            border: 1px solid #cccccc; 
-            font-size: 18px;
-            color: #cccccc;
-            font-weight: bold;
-            border-radius: 5px;
-        }
-        .hd{
-            display: block;
-            position: absolute;
-            left: 55px;
-            color: #cccccc;
-            font-size: 14px;
-            font-weight: bold;
-        }
-        .qx{
-            display: block;
-            width: 90px;
-            height: 30px;
-            position: absolute;
-            left: 65px;
-            top: 150px;
-            background-color: #339999;
-            font-size: 15px;
-            color: #ffffff;
-            border-radius: 5px;
-        }
-        .qd{
-            display: block;
-            width: 90px;
-            height: 30px;
-            position: absolute;
-            left: 185px;
-            top: 150px;
-            background-color: #cc9966;
-            font-size: 15px;
-            color: #ffffff;
-            border-radius: 5px;
-        }
-        
-        .num.active{
-            border: 1px solid red; 
-        }
-        
-        .icon{
-            background-image: url('./photo/tick.png');
-            display: inline-block;
-            width: 24px;
-            height: 24px;
-            position: absolute;
-            right: 0;
-            bottom: 0;
-            display: none;
-        }
-        .num.active .icon{
-            display: block;
-        }
+.tb {
+	width: 722px;
+	height: 41px;
+	padding: 20px 0 0 0;
+	position: relative;
+	margin: 0 24px 0 24px;
+	border-bottom: 1px #000
+}
+.czzh {
+	width: 140px;
+	height: 19px;
+	float: right;
+}
+.change {
+	color: #5cc8cb;
+	position: relative;
+	right: -13px;
+}
+.zbs {
+	width: 855px;
+	height: 220px;
+}
+.num {
 
-        .sfje{
-            font-size: 18px;
-        }
-        .yuan{
-            font-size: 22px;
-            color: red;
-        }
-        .xfxy{
-            color:#5cc8cb;
-            text-decoration: none;
-        }
-        .jes{
-            color: red;
-            font-size: 22px;
-        }
-        .jfh{
-            display:inline-block;
-            position: relative;
-            color: #CC6600;
-            font-size:14px;
-            top: 11px;
-            left: 22px;
-        }
-        .agree_checkbox{
+	float: left;
+	margin: 7.5px 5px;
+	width: 160px;
+	height: 45px;
+	padding: 4px 0;
+	text-align: center;
+	font-size: 16px;
+	background-color: #F5F5F5;
+	position: relative;
+}
+.je {
+	position: relative;
+	color: #CC6600;
+	top: 6px;
+}
+.dw {
+	position: relative;
+	color: #CC6600;
+	top: 6px;
+	left: -4px;
+}
+.fb {
 
-        }
-        
+	font-size: 12px;
+	color: #5cc8cb;
+	width: 100%;
+	display: inline-block;
+	left: 50%;
+}
+
+.zdy {
+	float: left;
+	position: relative;
+	width: 330px;
+	height: 53px;
+	margin: 7.5px 5px;
+	background-color: #F5F5F5;
+}
+.srk {
+	position: relative;
+	border: 0;
+	left: 10px;
+	top: 14px;
+	background-color: #F5F5F5;
+	color: #ADADAD;
+}
+.bdy {
+	position: relative;
+	left: -10px;
+	top: 14px;
+	float: right;
+	color: #5cc8cb;
+}
+.zbx {
+	width: 855px;
+	height: 100px;
+	border-top: 2px solid #F5F5F5;
+	border-bottom: 2px solid #F5F5F5;
+}
+.fh {
+	width: 855px;
+	height: 49px;
+	background-image: url('./photo/discount_bg.png');
+	background-repeat: no-repeat;
+	margin: 20px 5px 30px 5px;
+}
+.checkbox1 {
+	position: relative;
+	top: 13px;
+	left: 10px;
+}
+.checkbox2 {
+	display: none;
+	position: relative;
+	top: 13px;
+	left: 10px;
+}
+.syfbj {
+	position: relative;
+	top: 12px;
+	left: 10px;
+	font-size: 16px;
+}
+.fbj {
+	display: inline-block;
+	position: relative;
+	width: 95px;
+	height: 25px;
+	font-size: 16px;
+	top: 11px;
+	left: 20px;
+}
+.xb {
+	height: 360px;
+}
+.zhifubao {
+	left: 20px;
+	position: relative;
+	width: 160px;
+	height: 43px;
+	/* border: 1px solid #CC6600;*/
+	background-color: #F5F5F5;
+	text-align: center;
+	padding-top: 10px;
+	top: 16px;
+}
+.weixin {
+	left: 300px;
+	position: relative;
+	width: 160px;
+	height: 43px;
+	/* border: 1px solid #CC6600;*/
+	background-color: #F5F5F5;
+	text-align: center;
+	padding-top: 10px;
+	top: -37px;
+}
+.tick2 {
+	display: none;
+	position: absolute;
+	width: 16px;
+	height: 16px;
+	right: 0px;
+	bottom: 0px;
+	/*display: inline-block;*/
+}
+.num1.active {
+	border: 1px solid #CC6600;
+}
+
+.tips {
+	position: relative;
+	top: 40px;
+	color: #ADADAD;
+	display: none;
+}
+ol {
+	margin: 5px 0 0 -25px;
+}
+.scan_code {
+	position: absolute;
+	right: 100px;
+	top: 450px;
+	display: none;
+}
+.name {
+	position: relative;
+	left: 15px;
+}
+.cz {
+	cursor: pointer;
+	position: absolute;
+	width: 360px;
+	height: 190px;
+	background-color: #ffffff;
+	border: 1px solid #000;
+	border-radius: 5px;
+	display: none;
+	cursor: pointer;
+	left: 500px;
+	top: 60px;
+}
+.ghycz {
+	background-color: #CC9966;
+	width: 360px;
+	height: 34px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+.wz {
+	display: block;
+	position: absolute;
+	font-size: 20px;
+	left: 20px;
+	top: 1px;
+	color: #ffffff;
+	font-weight: bold;
+}
+.close {
+	display: block;
+	width: 15px;
+	height: 15px;
+	float: right;
+	margin: 10px;
+}
+.sr {
+	display: block;
+	width: 270px;
+	height: 28px;
+	margin: 30px 35px 15px;
+	padding-left: 15px;
+	border: 1px solid #cccccc;
+	font-size: 18px;
+	color: #cccccc;
+	font-weight: bold;
+	border-radius: 5px;
+}
+.hd {
+	display: block;
+	position: absolute;
+	left: 55px;
+	color: #cccccc;
+	font-size: 14px;
+	font-weight: bold;
+}
+.qx {
+	display: block;
+	width: 90px;
+	height: 30px;
+	position: absolute;
+	left: 65px;
+	top: 150px;
+	background-color: #339999;
+	font-size: 15px;
+	color: #ffffff;
+	border-radius: 5px;
+}
+.qd {
+	display: block;
+	width: 90px;
+	height: 30px;
+	position: absolute;
+	left: 185px;
+	top: 150px;
+	background-color: #cc9966;
+	font-size: 15px;
+	color: #ffffff;
+	border-radius: 5px;
+}
+
+.num.active {
+	border: 1px solid red;
+}
+
+.icon {
+	background-image: url('./photo/tick.png');
+	display: inline-block;
+	width: 24px;
+	height: 24px;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	display: none;
+}
+.num.active .icon {
+	display: block;
+}
+.num1.active .tick2 {
+	display: block;
+}
+
+.sfje {
+	font-size: 18px;
+}
+.yuan {
+	font-size: 22px;
+	color: red;
+}
+.xfxy {
+	color: #5cc8cb;
+	text-decoration: none;
+}
+.jes {
+	color: red;
+	font-size: 22px;
+}
+.jfh {
+	display: inline-block;
+	position: relative;
+	color: #CC6600;
+	font-size: 14px;
+	top: 11px;
+	left: 22px;
+}
+.select {
+	display: inline-table;
+	position: relative;
+	top: 11px;
+	left: 15px;
+}
